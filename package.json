@@ -1,0 +1,27 @@
+{
+  "name": "zacaustin",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Zac Austin Project Generator",
+  "main": "index.js",
+  "bin": {
+    "zacaustin-create": "index.js"
+  },
+  "scripts": {
+    "test": "./index.js ./test_output"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zacaustin/zacaustin.git"
+  },
+  "author": "Zac Austin <hello@zacaustin.com.au>",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/zacaustin/zacaustin/issues"
+  },
+  "homepage": "https://github.com/zacaustin/zacaustin#readme",
+  "dependencies": {
+    "commander": "^13.1.0",
+    "inquirer": "^12.4.3"
+  }
+}
