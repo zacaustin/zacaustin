@@ -17,7 +17,8 @@ This repository ([zacaustin/zacaustin](https://github.com/zacaustin/zacaustin)) 
 The following command will download and run my setup script for cloud server deployments.
 
 ```bash
-curl -fsSL "https://raw.githubusercontent.com/zacaustin/zacaustin/main/scripts/setup.sh" | sudo bash
+curl -fsSL "https://raw.githubusercontent.com/zacaustin/zacaustin/main/scripts/setup.sh" -o setup.sh
+sudo bash setup.sh
 ```
 
 The script works by firstly running a handful of commands on the root user, then prompts you for a non-root username to create.
