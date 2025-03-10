@@ -5,6 +5,8 @@ I’m currently the Head of Audio and Systems at [45 Productions](https://45prod
 
 At [45 Productions](https://45productions.com.au/?utm_source=github&utm_medium=referral&utm_campaign=zacaustin), we develop a wide range of internal software, tools, interfaces, applications, and embedded devices. My primary language is Node.js (JavaScript), but I also work with C++, AVR C, Swift, and more.
 
+If you're wondering why it seems like I don't do much, it's because most of my work and contributions are on private repositories. But I'm working on making more of my work available publically. Follow my profile to see when this eventually happens!
+
 ## 📫 Contact
 If you’d like to get in touch — whether to ask about this repository, discuss an upcoming project, or anything else — feel free to reach out at [hello@zacaustin.com.au](mailto:hello@zacaustin.com.au).
 
