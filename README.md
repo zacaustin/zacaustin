@@ -11,7 +11,23 @@ If you're wondering why it seems like I don't do much, it's because most of my w
 If you’d like to get in touch — whether to ask about this repository, discuss an upcoming project, or anything else — feel free to reach out at [hello@zacaustin.com.au](mailto:hello@zacaustin.com.au).
 
 ## 🤔 What's in this repository?
-This repository ([zacaustin/zacaustin](https://github.com/zacaustin/zacaustin)) contains a generator I created to automate repetitive setup processes for my software development projects.
+This repository ([zacaustin/zacaustin](https://github.com/zacaustin/zacaustin)) contains several resources, tools, scripts and utilities that I used in my daily work.
+
+### Server Setup Scripts
+The following command will download and run my setup script for cloud server deployments.
+
+```bash
+curl -fsSL "https://raw.githubusercontent.com/zacaustin/zacaustin/main/scripts/setup.sh" | sudo bash
+```
+
+The script works by firstly running a handful of commands on the root user, then prompts you for a non-root username to create.
+
+After that user is created, it pulls the second part of the script from this repo, and sets that up to run as the new non-root user on next boot. It then reboots the machine.
+
+The second part then proceeds to setup the server as configured in part one. It even cleans up after itself!
+
+### NodeJS Based Project Generator
+The generator I created to automate repetitive setup processes for my software development projects.
 
 Right now, it only generates package.json files for Node.js projects, but I plan to expand it with more features over time. Eventually, it will use EJS templates to dynamically generate file contents, keeping everything modular and reducing boilerplate.
 
